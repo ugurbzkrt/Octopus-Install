@@ -80,7 +80,7 @@ services:
 SA_PASSWORD=N0tS3cr3t!
 
 # Tag for the Octopus Server image. See https://hub.docker.com/repository/docker/octopusdeploy/octopusdeploy for the tags.
-OCTOPUS_SERVER_TAG=2020.3.1
+OCTOPUS_SERVER_TAG=latest
 
 # Sql Server image. Set this variable to the version you wish to use. Default is to use the latest.
 SQL_IMAGE=mcr.microsoft.com/mssql/server
@@ -89,7 +89,7 @@ SQL_IMAGE=mcr.microsoft.com/mssql/server
 ADMIN_USERNAME=admin
 
 # It is highly recommended this value is changed as it's the default user password for login to the Octopus Server
-ADMIN_PASSWORD=Passw0rd123
+ADMIN_PASSWORD=Admin!12
 
 # Email associated with the default created user. If empty will default to octopus@example.local
 ADMIN_EMAIL=
